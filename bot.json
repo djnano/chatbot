@@ -1,0 +1,157 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["i'm", "feeling", "low"],
+    "bot_response": "I'm sorry to hear that you're feeling low. Is there anything specific that's been bothering you or is it just a general feeling? It's important to acknowledge your emotions and take steps to address them",
+    "required_words": ["feeling", "low"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["im","sad","for","long","time"],
+    "bot_response": "you might be suffering from clinical depression",
+    "required_words": ["sad","long"]
+  }
+  ,
+  {
+    "response_type": "question",
+    "user_input": ["im","sad","for","long","time"],
+    "bot_response": "you should go out, talk with close mates",
+    "required_words": ["sad"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["i","dont","feel","like","to","go","ouside"],
+    "bot_response": "Try starting small, doing something enjoyable, or planning ahead to make going outside feel more manageable when you're struggling with depression.",
+    "required_words": ["outside","go"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["types","of","depression"],
+    "bot_response": "1.Major Depressive Disorder (MDD) 2.clinical depression 3.bipolar depression 4.postpartum depression",
+    "required_words": ["types","depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what","is","MDD"],
+    "bot_response": "MDD, or Major Depressive Disorder, is a mental health condition characterized by persistent feelings of sadness, hopelessness, or emptiness, and a loss of interest in activities that were once enjoyable.",
+    "required_words": ["mdd"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what","are","the","solutions","of","mdd"],
+    "bot_response": "The solutions for Major Depressive Disorder (MDD are A.medication B.Psychotherapy C.Lifestyle changes D.Support groups E.Electroconvulsive Therapy (ECT)",
+    "required_words": ["solutions","mdd"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how","can", "I", "improve","my","overall","mental","health"],
+    "bot_response": "1.Practice self-care 2.Get enough sleep 3.Eat a healthy diet 4.Connect with others 5.Practice mindfulness" ,
+    "required_words": ["improve", "mental","health"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "detect", "to", "depression"],
+    "bot_response": "Depression can be detected by recognizing changes in an individual's thoughts, emotions, and behaviors. Here are some common signs and symptoms of depression: Low energy ,Thoughts of self-harm or suicide,Irritability or restlessness,Persistent feelings of sadness, hopelessness, or emptiness",
+    "required_words": ["detect", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["bullying", "overcome", "to", "depression"],
+    "bot_response": "Overcoming bullying depression may involve seeking support from a mental health professional, developing coping skills, building a support network, and addressing the underlying issue of bullying through advocacy and prevention efforts.",
+    "required_words": ["bullying", "overcome"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["bullying", "depression"],
+    "bot_response": "Bullying can contribute to the development of depression by causing feelings of isolation, low self-esteem, and hopelessness, among other symptoms.",
+    "required_words": ["bullying", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "bipolar", "depression"],
+    "bot_response": "Bipolar depression is a type of depression that occurs in individuals with bipolar disorder, a mental health condition characterized by periods of intense mood swings between manic or hypomanic episodes and depressive episodes.",
+    "required_words": ["bipolar", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["causes", "bipolar", "depression"],
+    "bot_response": "The exact causes of bipolar depression are unknown, but it is believed to result from a combination of genetic, biological, and environmental factors, such as changes in brain chemistry, imbalances in neurotransmitters, hormonal imbalances, and stressful life events.",
+    "required_words": ["causes", "bipolar", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "overcome", "bipolar", "depression"],
+    "bot_response": "Overcoming bipolar depression typically involves a combination of medication, therapy (such as cognitive behavioral therapy), healthy lifestyle habits (such as regular exercise and a balanced diet), and a strong support system. It is important to work closely with a mental health professional to develop a personalized treatment plan that meets your specific needs.",
+    "required_words": ["overcome", "bipolar", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "postpartum", "depression"],
+    "bot_response": "Postpartum depression (PPD) is a type of depression that can occur in women after giving birth, typically within the first year after delivery, and is characterized by feelings of sadness, hopelessness, and worthlessness, as well as changes in appetite and sleep patterns, difficulty bonding with the baby, and sometimes thoughts of harming oneself or the baby.",
+    "required_words": ["postpartum", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["causes", "postpartum", "depression"],
+    "bot_response": "The exact causes of postpartum depression are unknown, but it is believed to result from a combination of physical, emotional, and environmental factors, such as hormonal changes, sleep deprivation, stress, a personal or family history of depression or other mental health conditions, and a lack of social support.",
+    "required_words": ["causes", "postpartum", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["overcome","postpartum", "depression"],
+    "bot_response": "Overcoming postpartum depression typically involves a combination of treatment options, such as therapy (such as cognitive behavioral therapy or interpersonal therapy), medication (such as antidepressants), and healthy lifestyle habits (such as getting enough sleep, eating a balanced diet, and engaging in regular physical activity). It is also important to have a strong support system, such as family and friends, or a support group for mothers experiencing postpartum depression. It is essential to seek help from a mental health professional to develop a personalized treatment plan that meets your specific needs.",
+    "required_words": ["overcome","postpartum", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "depression"],
+    "bot_response": "Depression is a mental health disorder characterized by persistent feelings of sadness, hopelessness, and a loss of interest or pleasure in activities that were once enjoyable. It can affect a person's thoughts, feelings, behavior, and physical well-being, and can impact their ability to function in their daily life.",
+    "required_words": ["depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["symptoms", "depression"],
+    "bot_response": "Persistent sadness, feelings of emptiness, or hopelessness ,Loss of interest or pleasure in activities once enjoyed, Changes in appetite or weight, Difficulty sleeping or sleeping too much, Fatigue or lack of energy, Feelings of worthlessness or guilt, Difficulty concentrating or making decisions, Thoughts of self-harm or suicide",
+    "required_words": ["symptoms", "depression"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["symptoms", "depression"],
+    "bot_response": "feeling sad is normal in life but if its persistent then going out , reaching to mental expert would work",
+    "required_words": ["life", "sad"]
+  }
+
+
+
+  
+]
